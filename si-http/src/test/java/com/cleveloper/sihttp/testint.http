@@ -1,0 +1,25 @@
+POST http://localhost:8080/ngdb//api/mddaudit
+Content-Type: application/json
+
+{
+  "dateTime": "string",
+  "exception": "string",
+  "id": 0,
+  "incomingPayload": "string",
+  "outgoingPayload": "string",
+  "processStage": "string",
+  "reRunnable": true,
+  "source": "string",
+  "status": "string"
+}
+
+###
+POST http://localhost:8080/foo
+Content-Type: application/json
+
+{
+  "name": "abu",
+  "action": "do something"
+}
+
+###
