@@ -1,4 +1,4 @@
-package com.cleveloper.messagessimulator.service;
+package com.cleveloper.messagessimulator.publishconsumereactor;
 
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
@@ -7,7 +7,6 @@ import reactor.core.publisher.Mono;
 import javax.annotation.PostConstruct;
 import java.time.Duration;
 import java.util.Map;
-import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.IntStream;
 
@@ -18,7 +17,7 @@ public class OrderService {
     @PostConstruct
     public void init() {
         OrderGenerator orderGenerator = new OrderGenerator();
-        IntStream.range(1, 11)
+        IntStream.range(0, 25)
                 .forEach(
                         value -> {
                             var order = orderGenerator.generate();

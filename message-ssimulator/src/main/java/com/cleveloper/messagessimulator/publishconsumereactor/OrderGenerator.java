@@ -1,4 +1,4 @@
-package com.cleveloper.messagessimulator.service;
+package com.cleveloper.messagessimulator.publishconsumereactor;
 
 import java.math.BigDecimal;
 import java.util.UUID;

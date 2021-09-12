@@ -1,4 +1,4 @@
-package com.cleveloper.messagessimulator;
+package com.cleveloper.messagessimulator.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

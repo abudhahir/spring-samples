@@ -1,4 +1,4 @@
-package com.cleveloper.messagessimulator.service;
+package com.cleveloper.messagessimulator.publishconsumereactor;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
